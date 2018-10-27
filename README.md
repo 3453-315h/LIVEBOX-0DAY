@@ -13,6 +13,7 @@ Versión de Hardware:  02
 
 A very serious attack vector allows an attacker to link CSRF drive-by vulnerabilities to exploit Autodialing and Line Test features, succesfully making calls from a victim's line, exposing a client's 	phone number and making him susceptible to scams and impersonation. Nuisance calls alone are also a serious concern.
 
+` Proof of concept exploit: `  
 
 ``` html
 <!DOCTYPE html>
@@ -88,7 +89,7 @@ User interaction        None.
 
 **CWE-912**: *Hidden Functionality. The software contains functionality that is not documented, not part of the specification, and not accessible through an interface or command sequence that is obvious to the software's users or administrators.*
 
-` Manual firmware update. Allows malware to be installed as described before. ` 
+Manual firmware update. Allows malware to be installed as described before.
 	
 	GET http://192.168.1.1/system_firmwarel.stm
 
