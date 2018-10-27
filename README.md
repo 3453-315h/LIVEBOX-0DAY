@@ -1,11 +1,12 @@
 # LIVEBOX-0DAY
 Arcadyan ARV7519RW22-A-L T VR9 1.2 Multiple security vulnerabilities affecting Latest frmware release on ORANGE Livebox 2.1 routers
 
+```
 Versión de Firmware:  00.96.320S (01.11.2017-11:43:44)
 Versión del Boot:  v0.70.03
 Versión del Módem ADSL: 5.4.1.10.1.1A
 Versión de Hardware:  02
-
+```
 
 
 **CWE-359**: *Exposure of Private Information ('Privacy Violation').*
@@ -67,7 +68,6 @@ Access Complexity 	Low (Specialized access conditions or extenuating circumstanc
 Authentication 		None. (The vulnerability does not require an attacker or user to be logged into the system). 
 User interaction        None.
 
-Examples:
 
 	- Login with default admin:admin credentials after restoring configuration to factory settings. (This can be omited if the victim has an active session.)
 	- Change default credentials.
@@ -84,7 +84,7 @@ Examples:
 
 
 
-CWE-912: Hidden Functionality. The software contains functionality that is not documented, not part of the specification, and not accessible through an interface or command sequence that is obvious to the software's users or administrators. 
+**CWE-912**: *Hidden Functionality. The software contains functionality that is not documented, not part of the specification, and not accessible through an interface or command sequence that is obvious to the software's users or administrators.*
 
 	Manual firmware update. Allows malware to be installed as described before.
 	GET http://192.168.1.1/system_firmwarel.stm
