@@ -11,7 +11,7 @@ Versión de Hardware:  02
 
 **CWE-359**: *Exposure of Private Information ('Privacy Violation').*
 
-	A very serious attack vector allows an attacker to link CSRF drive-by vulnerabilities to exploit Autodialing and Line Test features, succesfully making calls from a victim's line, exposing a client's 	phone number and making him susceptible to scams and impersonation. Nuisance calls alone are also a serious concern.
+A very serious attack vector allows an attacker to link CSRF drive-by vulnerabilities to exploit Autodialing and Line Test features, succesfully making calls from a victim's line, exposing a client's 	phone number and making him susceptible to scams and impersonation. Nuisance calls alone are also a serious concern.
 
 
 ``` html
@@ -36,7 +36,7 @@ Versión de Hardware:  02
 </html>
 ```
 
-	When the victim visits the malicious site, it will create an autodialing profile on the victim's modem, and activate the Line Test feature. No interaction needed. The phone will ring, and when the call 		is answered the autodialing feature will call the attacker's number. 
+When the victim visits the malicious site, it will create an autodialing profile on the victim's modem, and activate the Line Test feature. No interaction needed. The phone will ring, and when the call 		is answered the autodialing feature will call the attacker's number. 
 
 
 
@@ -62,11 +62,11 @@ Versión de Hardware:  02
 
 **CWE-352**: *Cross-Site Request Forgery (CSRF): The web application does not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request. Allows an attacker to manipulate all configuration parameters.*
 
-Integrity Impact 	Complete (There is a total compromise of system integrity. There is a complete loss of system protection, resulting in the entire system being compromised.)
-Availability Impact 	Complete (There is a total shutdown of the affected resource. The attacker can render the resource completely unavailable.)
-Access Complexity 	Low (Specialized access conditions or extenuating circumstances do not exist. Very little knowledge or skill is required to exploit. )
-Authentication 		None. (The vulnerability does not require an attacker or user to be logged into the system). 
-User interaction        None.
+Integrity Impact 	Complete (There is a total compromise of system integrity. There is a complete loss of system protection, resulting in the entire system being compromised.)  
+Availability Impact 	Complete (There is a total shutdown of the affected resource. The attacker can render the resource completely unavailable.)  
+Access Complexity 	Low (Specialized access conditions or extenuating circumstances do not exist. Very little knowledge or skill is required to exploit. )  
+Authentication 		None. (The vulnerability does not require an attacker or user to be logged into the system).   
+User interaction        None.  
 
 
 	- Login with default admin:admin credentials after restoring configuration to factory settings. (This can be omited if the victim has an active session.)
