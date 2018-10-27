@@ -63,12 +63,13 @@ When the victim visits the malicious site, it will create an autodialing profile
 
 **CWE-352**: *Cross-Site Request Forgery (CSRF): The web application does not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request. Allows an attacker to manipulate all configuration parameters.*
 
+```
 Integrity Impact 	Complete (There is a total compromise of system integrity. There is a complete loss of system protection, resulting in the entire system being compromised.)  
 Availability Impact 	Complete (There is a total shutdown of the affected resource. The attacker can render the resource completely unavailable.)  
 Access Complexity 	Low (Specialized access conditions or extenuating circumstances do not exist. Very little knowledge or skill is required to exploit. )  
 Authentication 		None. (The vulnerability does not require an attacker or user to be logged into the system).   
 User interaction        None.  
-
+```
 
 	- Login with default admin:admin credentials after restoring configuration to factory settings. (This can be omited if the victim has an active session.)
 	- Change default credentials.
