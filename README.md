@@ -37,7 +37,8 @@ A very serious attack vector allows an attacker to link CSRF drive-by vulnerabil
 </html>
 ```
 
-When the victim visits the malicious site, it will create an autodialing profile on the victim's modem, and activate the Line Test feature. No interaction needed. The phone will ring, and when the call 		is answered the autodialing feature will call the attacker's number. 
+When the victim visits the malicious site, it will create an autodialing profile on the victim's modem, and activate the Line Test feature. No interaction needed. The phone will ring, and when the call is answered the autodialing feature will call the attacker's number. 
+
 
 
 
