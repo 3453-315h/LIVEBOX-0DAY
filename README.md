@@ -45,7 +45,7 @@ When the victim visits the malicious site, it will create an autodialing profile
 -->
  Demo                           | Attack scenario |
 :------------------------------:|:----------------------:|
- ![DEMO](poc/CWE-359.gif)       | This vector can be exploited to conduct false flag operations (such as impersonating an individual with a restraint order against another), marketing campaings, harassment, and intelligence gathering. |
+ ![DEMO](poc/CWE-359.gif)       | This vector can be exploited to conduct false flag operations (such as impersonating an individual with a restraint order against another), marketing campaings, harassment, denial of service, and intelligence gathering. |
 
 &nbsp;
 
