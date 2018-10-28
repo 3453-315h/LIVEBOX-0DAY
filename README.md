@@ -1,5 +1,5 @@
 # LIVEBOX-0DAY
-Arcadyan ARV7519RW22-A-L T VR9 1.2 Multiple security vulnerabilities affecting Latest firmware release on ORANGE Livebox ADSL modems.
+Arcadyan ARV7519RW22-A-L T VR9 1.2 Multiple security vulnerabilities affecting latest firmware release on ORANGE Livebox ADSL modems.
 
 ```
 Versión de Firmware:  00.96.320S (01.11.2017-11:43:44)
