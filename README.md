@@ -1,5 +1,5 @@
 # LIVEBOX-0DAY
-Arcadyan ARV7519RW22-A-L T VR9 1.2 Multiple security vulnerabilities affecting Latest frmware release on ORANGE Livebox 2.1 routers
+Arcadyan ARV7519RW22-A-L T VR9 1.2 Multiple security vulnerabilities affecting Latest firmware release on ORANGE Livebox ADSL modems.
 
 ```
 Versión de Firmware:  00.96.320S (01.11.2017-11:43:44)
@@ -11,7 +11,7 @@ Versión de Hardware:  02
 
 **CWE-359**: *Exposure of Private Information ('Privacy Violation').*
 
-A very serious attack vector allows an attacker to link CSRF drive-by vulnerabilities to exploit Autodialing and Line Test features, succesfully making calls from a victim's line, exposing a client's 	phone number and making him susceptible to scams and impersonation. Nuisance calls alone are also a serious concern.
+A very serious attack vector allows an attacker to link CSRF drive-by vulnerabilities to exploit Autodialing and Line Test features, succesfully making calls from a victim's line, exposing a client's phone number and making him susceptible to scams and impersonation. Nuisance calls alone are also a serious concern.
 
 ` Proof of concept exploit: `  
 
@@ -45,7 +45,7 @@ When the victim visits the malicious site, it will create an autodialing profile
 -->
  Demo                           | Attack scenario |
 :------------------------------:|:----------------------:|
- ![DEMO](poc/CWE-359.gif)       | This vector can be exploited to perfom false flag operations (such as impersonating an individual with a restraint order against another), marketing campaings, harassment, and intelligence gathering. |
+ ![DEMO](poc/CWE-359.gif)       | This vector can be exploited to conduct false flag operations (such as impersonating an individual with a restraint order against another), marketing campaings, harassment, and intelligence gathering. |
 
 &nbsp;
 
