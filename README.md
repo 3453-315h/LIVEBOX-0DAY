@@ -105,6 +105,6 @@ Manual firmware update. Allows malware to be installed as described before.
 
 ---
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 **mapez** - [telegram](https://t.me/mapezz)
