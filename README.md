@@ -8,6 +8,7 @@ Versión del Módem ADSL: 5.4.1.10.1.1A
 Versión de Hardware:  02
 ```
 
+<img src="https://zdnet4.cbsistatic.com/hub/i/2018/12/24/f38a0deb-981c-40d9-8b62-63b26722864a/cff2efda698d728f09ba5449ebeac37a/orangelivebox.png" width="1000px">
 
 **CWE-359**: *Exposure of Private Information ('Privacy Violation').*
 
