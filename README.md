@@ -105,6 +105,8 @@ Manual firmware update. Allows malware to be installed as described before.
 
 ## Media coverage
 
+On December-23rd 2018 a threat actor identified by Troy Murch at BadPackets LLC suspectedly attacked over 19000 vulnerable modems in Spain with the exploits described in this repository. The criminal targeted the Information disclosure (CWE-200) vulnerability and likely employed geolocation databases such as my own [GS-LOC](https://github.com/zadewg/GS-LOC/) to map the APs.
+
 * [BadPackets](https://badpackets.net/over-19000-orange-livebox-adsl-modems-are-leaking-their-wifi-credentials/)
 * [InfoSecurity Magazine](https://www.infosecurity-magazine.com/news/20000-orange-modems-leaking-wi-fi/)  
 * [BleepingComputer](https://www.bleepingcomputer.com/news/security/orange-livebox-modems-targeted-for-ssid-and-wifi-info/)    
