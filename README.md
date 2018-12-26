@@ -108,13 +108,14 @@ Manual firmware update. Allows malware to be installed as described before.
 
 ## Media coverage
 
-On December the 21st-2018 a threat actor identified by Troy Mursch's honeypots at BadPackets LLC suspectedly attacked over 19000 vulnerable modems in Spain with the exploits described in this repository. The criminal targeted the Credentials  Disclosure (CWE-200) vulnerability and likely employed geolocation databases such as my own [GS-LOC](https://github.com/zadewg/GS-LOC/) to map the APs. 
+On December the 21st-2018 a threat actor identified by Troy Mursch's honeypots at BadPackets LLC suspectedly attacked over 19000 vulnerable modems in Spain with the exploits described in this repository. The criminal targeted the Credentials  Disclosure (CWE-200) vulnerability and likely employed Access Point geolocation databases such as my own [GS-LOC](https://github.com/zadewg/GS-LOC/) to map the APs. 
 
 * [BadPackets](https://badpackets.net/over-19000-orange-livebox-adsl-modems-are-leaking-their-wifi-credentials/)
 * [InfoSecurity Magazine](https://www.infosecurity-magazine.com/news/20000-orange-modems-leaking-wi-fi/)  
 * [BleepingComputer](https://www.bleepingcomputer.com/news/security/orange-livebox-modems-targeted-for-ssid-and-wifi-info/)    
 * [GBhackers](https://gbhackers.com/orange-adsl-modems/)  
 * [Security Affairs](https://securityaffairs.co/wordpress/79152/hacking/orange-livebox-adsl-modems-flaw.html)  
+* [ZDNet](https://www.zdnet.com/article/over-19000-orange-modems-are-leaking-wifi-credentials/)  
 
 ---
 
