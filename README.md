@@ -1,4 +1,4 @@
-# LIVEBOX-0DAY   CVE-2018-20377
+# LIVEBOX-0DAY   CVE-2018-20377; 20575; 20576; 20577
 Arcadyan ARV7519RW22-A-L T VR9 1.2 Multiple security vulnerabilities affecting latest firmware release on ORANGE Livebox ADSL modems.
 
 ```
