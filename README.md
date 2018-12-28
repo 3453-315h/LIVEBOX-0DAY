@@ -10,7 +10,7 @@ Versión de Hardware:  02
 
 <img src="https://zdnet4.cbsistatic.com/hub/i/2018/12/24/f38a0deb-981c-40d9-8b62-63b26722864a/cff2efda698d728f09ba5449ebeac37a/orangelivebox.png" width="1000px">
 
-**CWE-359**: *Exposure of Private Information ('Privacy Violation').* [CVE-2018-20576 Detail]()
+**CWE-359**: *Exposure of Private Information ('Privacy Violation').* [CVE-2018-20576 Detail](https://nvd.nist.gov/vuln/detail/CVE-2018-20576)
 
 A very serious attack vector allows an attacker to link CSRF drive-by vulnerabilities to exploit Autodialing and Line Test features, succesfully making calls from a victim's line, exposing a client's phone number and making him susceptible to scams and impersonation. Nuisance calls alone are also a serious concern.
 
@@ -76,7 +76,7 @@ When the victim visits the malicious site, it will create an autodialing profile
 |<br>**Base Score:** 9.8 CRITICAL<br>**Vector:** AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H (V3 legend)<br>**Impact Score:** 5.9<br>**Exploitability Score:** 3.9<br><br>**Attack Vector (AV):** Network<br>**Attack Complexity (AC):** Low<br>**Privileges Required (PR):** None<br>**User Interaction (UI):** None<br>**Scope (S):** Unchanged<br>**Confidentiality (C):** High<br>**Integrity (I):** High<br>**Availability (A):** High|                                
 
 
-**CWE-352**: *Cross-Site Request Forgery (CSRF): The web application does not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request. Allows an attacker to manipulate all configuration parameters.* [CVE-2018-20577 Detail]()
+**CWE-352**: *Cross-Site Request Forgery (CSRF): The web application does not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request. Allows an attacker to manipulate all configuration parameters.* [CVE-2018-20577 Detail](https://nvd.nist.gov/vuln/detail/CVE-2018-20577)
 
 ```
 Integrity Impact 	Complete. 	(There is a total compromise of system integrity. There is a complete loss of system protection, resulting in the entire system being compromised.)  
@@ -101,7 +101,7 @@ User interaction        None.
 
 
 
-**CWE-912**: *Hidden Functionality. The software contains functionality that is not documented, not part of the specification, and not accessible through an interface or command sequence that is obvious to the software's users or administrators.* [ CVE-2018-20575 Detail]()
+**CWE-912**: *Hidden Functionality. The software contains functionality that is not documented, not part of the specification, and not accessible through an interface or command sequence that is obvious to the software's users or administrators.* [ CVE-2018-20575 Detail](https://nvd.nist.gov/vuln/detail/CVE-2018-20575)
 
 Manual firmware update. Allows malware to be installed as described before.
 	
